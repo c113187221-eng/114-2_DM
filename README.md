@@ -126,15 +126,15 @@
 - 教學內容：
   - LinearRegression、PolynomialFeatures、多元迴歸
   - 羅吉斯迴歸、混淆矩陣、ROC 曲線與 AUC
+- **小考 1**：Ch0 ~ Ch3（Python 語法、Pandas 操作、資料預處理）10 題選擇題
 
 ### 第 8 週｜KNN、SVM 與決策樹
 
 - 對應教科書：Ch7 K 最近鄰、Ch8 支持向量機、Ch9 決策樹
-- Colab 程式：[7 KNN, PCA and SelectKBest](https://colab.research.google.com/drive/1r6TRIRFWD5UmP8KTMWZaeo8W66b1LMPz?usp=sharing)、[8 SVM - titanic](https://colab.research.google.com/drive/1ZXKuUxTmRIaQcd6OVRtcNlKw3E0fB041?usp=sharing)、[9 Tree - titanic](https://colab.research.google.com/drive/1TBS0721z22BuJbkuKQ9nwtaZh1G-jH8n?usp=sharing)
+- Colab 程式：[7 KNN](https://colab.research.google.com/drive/1r6TRIRFWD5UmP8KTMWZaeo8W66b1LMPz)、[8 SVM](https://colab.research.google.com/drive/1ZXKuUxTmRIaQcd6OVRtcNlKw3E0fB041)、[9 決策樹](https://colab.research.google.com/drive/1TBS0721z22BuJbkuKQ9nwtaZh1G-jH8n)
 - 教學內容：
-  - KNN 建構、標準化影響、K 值選擇、PCA 降維
-  - SVC 模型、鐵達尼號實作
-  - 決策樹建構、過擬合控制、特徵重要性
+  - KNeighborsClassifier、SVC、DecisionTreeClassifier
+  - KNN 標準化與 K 值選擇、SVM C/gamma 參數、決策樹過擬合控制
 
 ### 第 9 週｜期中考
 
@@ -432,13 +432,15 @@ AI 評分結果將結合組內互評交叉比對，確保評分公平。若 AI �
 
 ## 評分比例
 
-| 項目 | 比例 |
-|------|------|
-| 平時作業（每週 Fork + PR） | 20% |
-| 小考（4 次） | 20% |
-| 期中考 | 20% |
-| 期末專題 | 20% |
-| 課堂參與 | 20% |
+| 項目 | 比例 | 評分方式 |
+|------|------|---------|
+| 平時作業（每週 Fork + PR） | 20% | 通過／不通過（Pass / Fail） |
+| 小考（4 次） | 20% | 依答題正確率 |
+| 期中考 | 20% | 依答題正確率 |
+| 期末專題 | 20% | 依專題評分維度 |
+| 課堂參與 | 20% | 出席 + 互動 |
+
+> **作業評分方式**：每週作業採 **通過／不通過（Pass / Fail）** 制。完成所有要求項目即為通過，不另計分數。未繳交或明顯不完整為不通過。
 
 ---
 
